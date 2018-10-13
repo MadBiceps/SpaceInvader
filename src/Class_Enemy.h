@@ -36,7 +36,7 @@ EnemyN::EnemyN(int hp, int schaden, bool visible)
 EnemyN::EnemyN(void)
 {
 	hp = 100;
-	schaden = 25;
+	damage = 25;
 	visible = true;
 }
 
@@ -66,7 +66,7 @@ int EnemyN::getschaden(void)
 
 void EnemyN::setschaden(int schaden)
 {
-	this->schaden = schaden;
+	this->damage = damage;
 }
 
 bool EnemyN::getvisible(void)
